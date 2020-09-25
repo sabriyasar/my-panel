@@ -8,6 +8,7 @@
 
 .site-layout-background {
   background: #fff;
+  padding-top: 30px;
 }
   .logo {
     background: rgba(255, 255, 255, 0.3);
@@ -20,14 +21,60 @@
 
   .site-statistic-demo-card {
     position: relative;
-    left: 220px;
+    left: 440px;
+    top: -1170px;
   }
 
   .ort-gunluk-ucret {
     position: relative;
-    left: 220px;
-    top: 20px;
+    left: 440px;
+    top: -1160px;
   }
-  .chart {
-    height: 40px;
+
+.menu-search {
+    top: 8px;
+}
+
+.site-demo-card {
+  position: relative;
+    left: 200px;
+    top: -560px;
+}
+.text-title-rt {
+  height: 40px;
+}
+.text-title {
+  height: 40px;
+}
+
+.button-container {
+  position: relative;
+  right: 80px;
+  top: 70px;
+}
+
+.breadcrumb-container {
+  position: relative;
+  left: 200px;
+  top: -600px;
+}
+
+.tabs-container {
+  position: relative;
+  left: 960px;
+  top: -540px;
+}
+
+.chart {
+  position: relative;
+  width: 420px;
+  top: -600px;
+  left: 650px;
+}
+
+.twochart {
+  position: relative;
+  width: 420px;
+  top: -600px;
+  left: 650px;
 }

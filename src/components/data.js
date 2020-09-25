@@ -1,0 +1,66 @@
+
+export const populationData = [{
+    arg: 1,
+    val: 0
+  }, {
+    arg: 2,
+    val: 100
+  }, {
+    arg: 3,
+    val: 200
+  }, {
+    arg: 4,
+    val: 300
+  }, {
+    arg: 5,
+    val: 400
+  }, {
+    arg: 6,
+  }, {
+    arg: 7,
+}, {
+    arg: 8,
+  }, {
+    arg: 9,
+}, {
+    arg: 10,
+  }, {
+    arg: 11,
+}, {
+    arg: 12,
+  }, {
+    arg: 13,
+}, {
+    arg: 14,
+  }, {
+    arg: 15,
+}, {
+    arg: 16,
+  }, {
+    arg: 17,
+}, {
+    arg: 18,
+  }, {
+    arg: 19,
+}, {
+    arg: 20,
+  }, {
+    arg: 21,
+}, {
+    arg: 22,
+  }, {
+    arg: 23,
+}, {
+    arg: 24,
+  }, {
+    arg: 25,
+}, {
+    arg: 26,
+  }, {
+    arg: 27,
+}, {
+    arg: 28,
+  }, {
+    arg: 29,
+  }];
+  

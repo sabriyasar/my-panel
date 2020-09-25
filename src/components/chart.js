@@ -13,7 +13,7 @@ class Charts extends React.Component {
   render() {
     return (
       <Chart
-        title="World Population by Decade"
+        title="Ciro  Temmuz 2020"
         dataSource={populationData}
         id="chart"
       >
