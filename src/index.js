@@ -7,6 +7,7 @@ import MultiplyBox from './components/box';
 import MultiplyTabs from './components/tabs';
 import Charts from './components/chart';
 import TwoChart from './components/twochart';
+import MultiplyCard from './components/card';
 
 ReactDOM.render(
   
@@ -17,6 +18,7 @@ ReactDOM.render(
       <RTMenu />
       <Charts />
       <TwoChart />
+      <MultiplyCard />
       <MultiplyBox />
         
        

@@ -1,10 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
 import './index.css';
 import { 
   Layout, 
-  Menu, 
+  Progress, 
   Typography, 
   Statistic,
   Card, 
@@ -14,7 +13,7 @@ import {
 import {
   FileTextOutlined, 
   EnvironmentOutlined,
-   GlobalOutlined,
+  CreditCardOutlined,
   
   } from '@ant-design/icons';
 
@@ -36,24 +35,22 @@ const { Text } = Typography;
 <Col span={4}>
 <Card>
   <Statistic
-    title="Active"
-    value={11.28}
-    precision={2}
+    title="Toplam kontrat sayısı"
+    value={1.246}
     valueStyle={{ color: '#3f8600' }}
     prefix={<FileTextOutlined />}
-    suffix="%"
+    suffix="adet"
   />
 </Card>
 </Col>
 <Col span={4}>
 <Card>
   <Statistic
-    title="Idle"
-    value={9.3}
-    precision={2}
+    title="Toplam bölge sayısı"
+    value={17}
     valueStyle={{ color: '#cf1322' }}
     prefix={<EnvironmentOutlined />} 
-    suffix="%"
+    suffix="bölge"
   />
 </Card>
 </Col>
@@ -61,12 +58,9 @@ const { Text } = Typography;
 <Col span={4}>
 <Card>
   <Statistic
-    title="Idle"
-    value={9.3}
-    precision={2}
-    valueStyle={{ color: '#cf1322' }}
-    prefix={<GlobalOutlined />} 
-    suffix="%"
+  title="İptal oranı"
+  value={23} 
+  prefix={<Progress type="dashboard" percent={35} width={40} />}
   />
 </Card>
 </Col>
@@ -74,14 +68,11 @@ const { Text } = Typography;
 
 <Col span={4}>
 <Card>
-  <Statistic
-    title="Idle"
-    value={9.3}
-    precision={2}
-    valueStyle={{ color: '#cf1322' }}
-    prefix={<GlobalOutlined />}
-    suffix="%"
-  />
+<Statistic 
+    title="UpSell Oranı" 
+    value={8} 
+    prefix={<Progress type="dashboard" percent={12} width={40} />} 
+    />
 </Card>
 </Col>
 </Row>
@@ -93,12 +84,10 @@ const { Text } = Typography;
 
 <Card>
   <Statistic
-    title="Active"
-    value={11.28}
-    precision={2}
+    title="Ortalama günlük ücret"
+    value={234}
     valueStyle={{ color: '#3f8600' }}
-    prefix={<FileTextOutlined />}
-    suffix="%"
+    prefix={<CreditCardOutlined />}
   />
 </Card>
 </Col>

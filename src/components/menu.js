@@ -25,8 +25,14 @@ import {
    DownOutlined,
    CalendarOutlined,
    EditOutlined,
+   AppstoreOutlined,
+   BellOutlined,
   
   } from '@ant-design/icons';
+
+import ProfilePanel from '../components/profile';
+
+const logo = require('../assets/img/logo.png');
 
 const { Text } = Typography;
 const { SubMenu } = Menu;
@@ -66,15 +72,35 @@ const menu = (
 
   <Layout>
     <Header className="header">
-      <div className="logo" />
-      <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
+      
+      <Menu theme="light" mode="horizontal" defaultSelectedKeys={['2']}>
+          <img src={logo} style={{ width: 152, height: 44 }} />
+
       <Search
       placeholder="Quick menu search..."
       onSearch={value => console.log(value)}
       style={{ width: 350, left: 300, margin: 10 }}
     />
     
+    <div className="home-logo">
+      <Button type="second" shape="circle">
+      <HomeOutlined />
+    </Button>
+    </div>
+    <div className="filter-logo">
+    <Button type="second" shape="circle">
+    <AppstoreOutlined />
+    </Button>
+    </div>
+
+    <div className="alert-logo">
+      <Button type="second" shape="circle">
+      <BellOutlined />
+    </Button>
+    <ProfilePanel />
+    </div>
       </Menu>
+      
       
       <div className="card-container">
     

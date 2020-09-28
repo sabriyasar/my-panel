@@ -1,23 +1,11 @@
-export const months = [{
-    id: 1,
-    name: 'Pzt'
-  }, {
-    id: 2,
-    name: 'Sal'
-  }, {
-    id: 3,
-    name: 'Çarş'
-  }, {
-    id: 4,
-    name: 'Perş'
-  }, {
-    id: 5,
-    name: 'Cuma'
-  }, {
-    id: 6,
-    name: 'Ctesi'
-  }, {
-    id: 7,
-    name: 'Pazar'
-  }];
-  
+export const overlappingModes = ['stagger', 'rotate', 'hide', 'none'];
+
+export const population = [
+  { country: 'Pzt', val: 1},
+  { country: 'Sl', val: 5},
+  { country: 'Çrş', val: 4},
+  { country: 'Prş', val: 2},
+  { country: 'Cm', val: 3},
+  { country: 'Cmt', val: 6},
+  { country: 'Pz', val: 5},
+];

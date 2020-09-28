@@ -1,18 +1,7 @@
-.logo {
-  width: 120px;
-  height: 31px;
-  background: rgba(255, 255, 255, 0.2);
-  margin: 16px 28px 16px 0;
-  float: left;
-}
-
 .site-layout-background {
   background: #fff;
   padding-top: 30px;
 }
-  .logo {
-    background: rgba(255, 255, 255, 0.3);
-  }
 
   .card-container {
     position: relative;
@@ -22,17 +11,31 @@
   .site-statistic-demo-card {
     position: relative;
     left: 440px;
-    top: -1170px;
+    top: -1569px;
   }
 
   .ort-gunluk-ucret {
     position: relative;
     left: 440px;
-    top: -1160px;
+    top: -1550px;
   }
 
 .menu-search {
     top: 8px;
+}
+
+.home-logo {
+  position: relative;
+  width: 20px;
+  top: -65px;
+  left: 203px;
+}
+
+.filter-logo {
+  position: relative;
+  width: 20px;
+  top: -129px;
+  left: 163px;
 }
 
 .site-demo-card {
@@ -50,7 +53,7 @@
 .button-container {
   position: relative;
   right: 80px;
-  top: 70px;
+  top: -60px;
 }
 
 .breadcrumb-container {
@@ -65,16 +68,16 @@
   top: -540px;
 }
 
-.chart {
+#chart {
   position: relative;
   width: 420px;
   top: -600px;
   left: 650px;
 }
 
-.twochart {
-  position: relative;
-  width: 420px;
-  top: -600px;
-  left: 650px;
+.two-chart {
+position: relative;
+width: 190px;
+top: -1000px;
+left: 1090px;
 }
